@@ -25,9 +25,9 @@ initial = matrix(c(40,20,55,80,1,-1,100,25),nrow = 4,ncol = 2,byrow = TRUE)
 game2D(initial,q=0.5)
 # returns 一個三角形圖騰
 
-initial = matrix(c(2,0,55,80,1,-1,100,25,-10,-20),nrow = 5,ncol = 2,byrow = TRUE)
+initial = matrix(c(50,40,52,80,10,50,75,-5,30,0,90,45),nrow = 6,ncol = 2,byrow = TRUE)
 #初始點(2,0)、四個頂點(55,80)、(1,-1)、(100,25)、(-10,-20)
-game2D(initial,q=-0.3,iteration = 1000)
+game2D(initial,q=-0.35,iteration = 5000)
 # returns 一個迭代1000次的四角圖騰
 
 }
